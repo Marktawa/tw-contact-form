@@ -14,7 +14,7 @@ const formEvent = form.addEventListener("submit", (event) => {
 
 const sendMail = (mail) => {
   //1.
-  fetch("https://stark-everglades-77513.herokuapp.com/send", {
+  fetch("send", {
     method: "post", //2.
     body: mail, //3.
 
